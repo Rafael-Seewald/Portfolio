@@ -1,3 +1,7 @@
+@import url(https://db.onlinewebfonts.com/c/df93109504b66900709738023b0e9814?family=Rohn+Bold);
+@import url(https://db.onlinewebfonts.com/c/d645cc4a58c3bcf8ab61869b4edab482?family=Real+Head+Web+W03+Book);
+@import url(https://db.onlinewebfonts.com/c/60bb18a25a964a9cc419b599a50267ad?family=Stem+Text+W03+Regular);
+
 html {
     scroll-behavior: smooth;
 }
@@ -7,7 +11,7 @@ body{
     margin: 0%;
     color: white;
     background-color: rgb(31, 31, 31);
-    min-width: 1600px;
+    min-width: 100%; 
 }
 
 /* Chrome, Safari scrollbar */
@@ -53,14 +57,14 @@ header.scrolled {
 h2#page-name{
     color: rgb(255, 255, 255);
     font-family: "Rohn Bold";
-    font-size: 35px;
+    font-size: 2.2rem;
     margin: 24px 0px 24px;
 }
 
 h2#page-surname{
     color: rgb(98, 0, 255);
     font-family: "Rohn Bold";
-    font-size: 35px;
+    font-size: 2.2rem;
     margin-left: 1px;
     margin-top: 24px;
     margin-bottom: 24px;
@@ -70,7 +74,7 @@ div#page-totalname{
     cursor: default;
     transition: 600ms;
     display: flex;
-    margin: 2px 12em 2px;
+    margin: 2px 11%;
     text-decoration: none;
 }
 
@@ -86,13 +90,14 @@ nav ul {
     display: flex;
     position: absolute;
     top: 50%;
-    left: 73%;
+    left: auto;
+    right: 0;
     transform: translate(-50%, -50%);
   }
   
 nav ul li {
     list-style: none;
-    margin: 0 20px;
+    margin: 0 10px;
 }
   
 nav ul li a {
@@ -143,7 +148,7 @@ button#darkmode{
 }
 
 div#img-back {
-    background-image: url(./img/background.jpg);
+    background-image: url('/static/img/background.jpg');
     background-size: cover; 
     background-repeat: no-repeat; 
     background-blend-mode: overlay; 
@@ -409,8 +414,8 @@ hr.hr-sectionproject{
 }
 
 .project-image video{
-    width: 700px;
-    height: 500px;
+    width: 33em;
+    height: 23em;
 }
 
 .project-details{
