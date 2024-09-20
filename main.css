@@ -16,7 +16,7 @@ body{
 
 /* Chrome, Safari scrollbar */
 ::-webkit-scrollbar {
-    width: 12px; 
+    width: 0.8em; 
 }
 
 ::-webkit-scrollbar-track {
@@ -65,53 +65,53 @@ h2#page-surname{
     color: rgb(98, 0, 255);
     font-family: "Rohn Bold";
     font-size: 2.2rem;
-    margin-left: 1px;
-    margin-top: 24px;
-    margin-bottom: 24px;
+    margin-left: 0.03em;
+    margin-top: 0.68em;
+    margin-bottom: 0.68em;
 }
 
 div#page-totalname{
     cursor: default;
     transition: 600ms;
     display: flex;
-    margin: 2px 11%;
+    margin: 0.12em 11%;
     text-decoration: none;
 }
 
 div#page-totalname:hover{
     transition: 600ms;
     transform: scale(1.1);
-    text-shadow: 0 0 34px rgb(119, 0, 255)
+    text-shadow: 0 0 2.5em rgb(119, 0, 255)
 }
 
 nav ul {
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
     display: flex;
     position: absolute;
     top: 50%;
     left: auto;
-    right: 0;
+    left: 81%;
     transform: translate(-50%, -50%);
   }
   
 nav ul li {
     list-style: none;
-    margin: 0 10px;
+    margin: 0 0.33em;
 }
   
 nav ul li a {
     position: relative; 
     display: block;
-    width: 69px;
-    height: 44px;
-    padding: 3px 8px 3px;
+    width: 5em;
+    height: 5em;
+    margin: 0% 1em 0%;
+    padding: 0.2em 0.5em 0.2em;
     text-align: center;
-    line-height: 43px;
+    line-height: 4.9em;
+    border-radius: 18%;
     background: rgb(31, 31, 31);
-    border-radius: 20%;
     font-family: "Rohn Bold";
-    font-size: 17px;
     color: rgb(161, 161, 161);
     transition: .5s;
     text-decoration: none;
@@ -120,8 +120,8 @@ nav ul li a {
 nav ul li a::before {
     content: '';
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 0%;
+    left: 0%;
     width: 100%;
     height: 100%;
     border-radius: 20%;
@@ -133,18 +133,14 @@ nav ul li a::before {
   
 nav ul li a:hover::before {
     transform: scale(1.1);
-    box-shadow: 0 0 16px rgb(98, 0, 255);
+    box-shadow: 0 0 11px rgb(98, 0, 255);
 }
   
 nav ul li a:hover {
-    color: rgb(176, 126, 255);
+    color: rgb(221, 221, 221);
     box-shadow: 0 0 6px rgb(98, 0, 255);
     text-shadow: 0 0 6px rgb(98, 0, 255);
-}
-
-button#darkmode{
-    border-radius: 50px;
-    margin: 9px 4px 9px;
+    text-decoration: underline rgb(176, 126, 255) 2px;
 }
 
 div#img-back {
@@ -159,19 +155,19 @@ div#img-back {
 
 div#gradient{
     background-image: linear-gradient(180deg, rgba(255, 253, 253, 0.075), rgba(32, 32, 32, 0.842));
-    padding-bottom: 80px;
+    padding-bottom: 5em;
 }
 
 div#text-center {
-    padding: 230px 0px 100px;
+    padding: 14.4em 0% 6.26em;
 }
 
 h2.h2-mainhome{
     font-family: "Stem Text W03 Regular";
-    font-size: 26px;
+    font-size: 1.63em;
     color: rgb(223, 223, 223);
     font-weight: 100;
-    margin: 8px 0px 0px;
+    margin: 0.3em 0px 0px;
 }
 
 h2#together{
@@ -193,11 +189,11 @@ span.wave {
     display: inline-block;
     animation: wave-animation 3s infinite;
     transform-origin: 70% 70%;
-    font-size: 29px;
+    font-size: 1.83em;
 }
 
 h1{
-    font-size: 61px;
+    font-size: 3.8em;
     font-weight: 100;
     margin: 0px 0px 20px;
 }
@@ -222,45 +218,46 @@ ul#ul-imgs{
 }
 
 ul#ul-imgs li{
-    margin: 17px 16px 0px; 
+    margin: 1.06em 1.00em 0%; 
 }
 
 hr.imgs-hr {
-    height: 1px; 
-    width: 82px;
+    height: 0.06em; 
+    width: 5.13em;
     background-color: rgb(121, 121, 121);
-    margin: 34px 28px 0px; 
-    border: 1px solid rgb(121, 121, 121);
+    margin: 2.13em 1.75em 0%; 
+    border: 0.06em solid rgb(121, 121, 121);
 }
 
 p#scroll-p{
-    letter-spacing: 2px;
-    margin-bottom: 3px;
+    letter-spacing: 3px;
+    margin-bottom: 0.19em;
 }
 
 hr#scroll-hr{
-    height: 73px;
-    width: 0px;
+    height: 4.56em;
+    width: 0%;
     background-color: rgb(121, 121, 121);
-    border: 1px solid rgb(121, 121, 121);
+    border: 0.06em solid rgb(121, 121, 121);
 }
 
 button#button-top{
-    opacity: 0;
+    opacity: 0%;
     cursor: default;
     transform: translateY(40%); 
     transition: opacity .5s, transform .5s;
     transition: 1s;
-    font-size: 35px;
-    padding: 6px 22px 14px;
+    font-size: 1.69em;
+    padding: 0.48em 0.88em 0.58em;
     color: white;
     z-index: 1000;
     position: fixed;
-    right: 80px;
-    bottom: 92px;
-    border-radius: 50px;
+    right: 5em;
+
+    bottom: 3.75em;
+    border-radius: 3.13em;
     background-color: rgb(98, 0, 255);
-    border: 3px white solid;
+    border: 0.19em white solid;
 }
 
 button#button-top.visible{
@@ -269,12 +266,12 @@ button#button-top.visible{
     transform: translateY(0); 
     z-index: 1000;
     position: sticky;
-    border-radius: 50px;
+    border-radius: 3.13em;
     background-color: rgb(98, 0, 255);
-    border: 3px white solid;
+    border: 0.19em white solid;
     position: fixed;
-    right: 80px;
-    bottom: 92px;
+    right: 5em;
+    bottom: 5.75em;
 }
 
 button#button-top:hover{
@@ -283,9 +280,9 @@ button#button-top:hover{
 }
 
 div#body-section {
-    margin: 0px;
-    font-size: 20px;
-    padding: 100px 200px 0px;
+    margin: 0%;
+    font-size: 1.19em;
+    padding: 5.15em 10em 0%;
     background-color: rgb(31, 31, 31);
 }
 
@@ -301,41 +298,41 @@ h2.h2-title{
 
 h2.h2-section{
     color: rgb(119, 35, 255);
-    padding: 0px 0px 0px;
-    letter-spacing: 4px;
-    font-size: 18px;
+    padding: 0% 0% 0%;
+    letter-spacing: 0.25em;
+    font-size: 1.13em;
 }
 
 hr.hr-section{
     background: rgb(119, 35, 255);
-    margin-left: 0px;
+    margin-left: 0%;
     border: none;
-    width: 800px;
-    height: 2px;
+    width: 50.00em;
+    height: 0.13em;
     border-radius: 40px;
 }
 
 p#indentation{
-    margin: 25px 15px 0px;
+    margin: 1.56em 6.90em 0%;
 }
 
 p#indentation2{
-    margin: 2px 45px 20px;
+    margin: 0.13em 8.65em 1.25em;
 }
 
 p#title-ul{
-    margin: 10px 132px 0px;
+    margin: 0.63em 10.70em 0%;
 }
 
 button.btn-technologies{
-    padding: 20px 30px 1px;
-    margin: 0px 2px 0px;
-    border-radius: 10px;
+    padding: 1.25em 1.88em 0.06em;
+    margin: 0% 0.13em 0%;
+    border-radius: 0.63em;
     background-color: rgb(56, 56, 56);
     color: white;
     font-family: "Rohn Bold";
     border: none;
-    font-size: 18px;
+    font-size: 1.0em;
     border-bottom: 5px solid rgb(119, 35, 255);
     transition: 600ms;
     transform: scale(1);
@@ -348,10 +345,10 @@ button.btn-technologies:hover{
 }
 
 ul.teste li{
-    padding-bottom: 2px;
+    padding-bottom: 0.13em;
     color: rgb(255, 255, 255);
     transition: 5s;
-    max-width: 230px;
+    max-width: 14.38em;
 }
 
 ul.teste li:hover{
@@ -361,156 +358,155 @@ ul.teste li:hover{
 }
 
 h2.h2-title2{
-    margin-top: 0px;
+    margin-top: 0.5%;
     letter-spacing: 3px;
 }
-
-img#img-dev{
+img#img-dev {
     position: fixed;
-    left: 870px;
-    top: 160px;
+    left: 54.38em; 
+    top: 10.0em;
 }
 
 section#about.visible {
-    opacity: 1; 
+    opacity: 1;
     transform: translateX(0);
 }
 
-section#projects{
-    padding: 30px 10px 0px;
+section#projects {
+    padding: 1.58em 0.63em 0em; 
     opacity: 0;
-    transform: translateX(-100%); 
+    transform: translateX(-100%);
     transition: opacity 1s, transform 1s;
 }
 
-div #sticky-projects{
+div #sticky-projects {
     position: sticky;
-    margin-top: 100px;
+    margin-top: 6.25em; 
     top: 13%;
     z-index: 1000;
 }
 
-hr.hr-sectionproject{
+hr.hr-sectionproject {
     background: rgb(119, 35, 255);
-    margin-left: 0px;
+    margin-left: 0;
     border: none;
-    width: 300px;
-    height: 2px;
-    border-radius: 40px;
+    width: 18.75em; 
+    height: 0.13em;
+    border-radius: 2.5em; 
 }
 
-.project{
+.project {
     display: flex;
     justify-content: center;
-    align-items: flex-start; 
-    max-width: 1900px;
+    align-items: flex-start;
+    max-width: 118.75em; 
 }
 
-.project-image{
+.project-image {
     display: flex;
     text-align: center;
     justify-content: center;
-    margin-left: 330px;
+    margin-left: 20.63em; 
 }
 
-.project-image video{
+.project-image video {
     width: 33em;
     height: 23em;
 }
 
-.project-details{
+.project-details {
     text-align: left;
-    margin: 0px 20px 5px;
+    margin: 0em 1.25em 0.31em; 
 }
 
-h2#primeiro{
-    margin-top: 100px;
+h2#primeiro {
+    margin-top: 3.60em; 
 }
 
-h2.h2-projects{
-    font-size: 23px;
+h2.h2-projects {
+    font-size: 1.44em; 
     letter-spacing: 3px;
     color: rgb(119, 35, 255);
 }
 
-hr.hr-projectimage{
+hr.hr-projectimage {
     background: rgb(119, 35, 255);
     border: none;
-    width: 950px;
-    height: 2px;
-    margin-top: 50px;
-    margin-left: 350px;
-    margin-bottom: 50px;
-    border-radius: 40px;
+    width: 53.38em; 
+    height: 0.13em; 
+    margin-top: 3.13em; 
+    margin-left: 20.58em; 
+    margin-bottom: 3.13em; 
+    border-radius: 2.5em; 
 }
 
-div.project a{
+div.project a {
     text-decoration: none;
     color: white;
     cursor: pointer;
     transition: 0.5s;
 }
 
-div.project a:hover{
+div.project a:hover {
     color: rgb(144, 75, 255);
     transition: 0.5s;
 }
 
-span.span-to{
+span.span-to {
     display: inline-block;
-    font-size: 26px;
+    font-size: 1.63em; 
     color: rgb(119, 35, 255);
-    transform: scaleY(0.86); 
-    transform-origin: bottom; 
+    transform: scaleY(0.86);
+    transform-origin: bottom;
 }
 
 section#projects.visible {
-    opacity: 1; 
-    transform: translateX(0); 
+    opacity: 1;
+    transform: translateX(0);
 }
 
-section#contact{
-    margin-top: 110px;
-    padding: 80px 0px 40px;
+section#contact {
+    margin-top: 6.88em; 
+    padding: 3em 0em 2.5em; 
     opacity: 0;
     text-align: center;
-    transform: translateX(-100%); 
+    transform: translateX(-100%);
     transition: opacity 1s, transform 1s;
 }
 
-hr.hr-sectioncontact{
+hr.hr-sectioncontact {
     background: rgb(119, 35, 255);
     border: none;
-    width: 820px;
-    height: 2px;
-    border-radius: 40px;
+    width: 51.25em; 
+    height: 0.13em; 
+    border-radius: 2.5em; 
 }
 
-ul#ul-contact li{
+ul#ul-contact li {
     list-style: none;
-    padding-bottom: 5px;
-    margin-right: 42px;
+    padding-bottom: 0.31em; 
+    margin-right: 2.63em; 
     text-align: center;
 }
 
-ul#ul-contact li.li-middle{
-    display:inline-flex;
+ul#ul-contact li.li-middle {
+    display: inline-flex;
     list-style: none;
-    margin-top: 20px;
+    margin-top: 1.25em; 
 }
 
 section#contact.visible {
-    opacity: 1; 
-    transform: translateX(0); 
+    opacity: 1;
+    transform: translateX(0);
 }
 
-hr#hr-footer{
+hr#hr-footer {
     background: rgb(119, 35, 255);
     border: none;
-    height: 2px;
+    height: 0.13em; 
 }
 
 footer {
     text-align: center;
-    padding: 20px 1px 30px;
+    padding: 1.25em 0.06em 1.88em; 
 }
