@@ -1,16 +1,16 @@
 @font-face {
     font-family: "Real Head Web W03 Book";
-    src: url('/static/fonts/Real\ Head\ Web\ W03\ Book.ttf') format('truetype');
+    src: url('./fonts/Real\ Head\ Web\ W03\ Book.ttf') format('truetype');
 }
 
 @font-face {
     font-family: "Stem Text W03 Regular";
-    src: url('/static/fonts/Stem\ Text\ W03\ Regular.ttf') format('truetype');
+    src: url('./fonts/Stem\ Text\ W03\ Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: "Rohn Bold";
-    src: url('/static/fonts/Rohn/RohnRounded-Bold.ttf') format('truetype');
+    src: url('./fonts/Rohn/RohnRounded-Bold.ttf') format('truetype');
 }
 
 /* Chrome, Safari scrollbar */
@@ -42,12 +42,13 @@
 
 img {
     max-width: 100%;
+    width: auto;
     height: auto;
 }
 
 html {
     scroll-behavior: smooth;
-    flex: 1 1 300px;
+    flex: 1 1 30%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -58,7 +59,7 @@ body{
     margin: 0%;
     color: white;
     background-color: rgb(31, 31, 31);
-    min-width: 100%; 
+    min-width: 90%; 
 }
 
 header {
@@ -219,6 +220,8 @@ h1{
 }
 
 img.contact-icon {
+    width: 2.3em;
+    height: 2.3em;
     transition: transform 1s ease, filter 1s ease;
     -webkit-transition: transform 1s ease, filter 1s ease;
     -ms-transition: transform 1s ease, filter 1s ease;
@@ -273,7 +276,6 @@ button#button-top{
     z-index: 1000;
     position: fixed;
     right: 5em;
-
     bottom: 3.75em;
     border-radius: 3.13em;
     background-color: rgb(98, 0, 255);
@@ -302,7 +304,7 @@ button#button-top:hover{
 div#body-section {
     margin: 0%;
     font-size: 1.19em;
-    padding: 5.15em 10em 0%;
+    padding: 5% 10% 0%;
     background-color: rgb(31, 31, 31);
 }
 
@@ -345,6 +347,8 @@ p#title-ul{
 }
 
 button.btn-technologies{
+    width: 6.70em;
+    height: 8em;
     padding: 1.25em 1.88em 0.06em;
     margin: 0% 0.13em 0%;
     border-radius: 0.63em;
@@ -381,10 +385,15 @@ h2.h2-title2{
     margin-top: 0.5%;
     letter-spacing: 3px;
 }
+
 img#img-dev {
     position: fixed;
-    left: 54.38em; 
-    top: 10.0em;
+    flex-wrap: wrap;
+    display:block;
+    left: 63%;
+    top: 20%;
+    width: 30%; 
+    height: auto;
 }
 
 section#about.visible {
@@ -410,7 +419,7 @@ hr.hr-sectionproject {
     background: rgb(119, 35, 255);
     margin-left: 0;
     border: none;
-    width: 18.75em; 
+    width: 15.75em; 
     height: 0.13em;
     border-radius: 2.5em; 
 }
@@ -426,7 +435,7 @@ hr.hr-sectionproject {
     display: flex;
     text-align: center;
     justify-content: center;
-    margin-left: 20.63em; 
+    margin-left: 18.63em; 
 }
 
 .project-image video {
@@ -452,10 +461,10 @@ h2.h2-projects {
 hr.hr-projectimage {
     background: rgb(119, 35, 255);
     border: none;
-    width: 53.38em; 
+    width: 66%; 
     height: 0.13em; 
     margin-top: 3.13em; 
-    margin-left: 20.58em; 
+    margin-left: 30%; 
     margin-bottom: 3.13em; 
     border-radius: 2.5em; 
 }
