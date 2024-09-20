@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "Real Head Web W03 Book";
-    src: url('./Real Head Web W03 Book.ttf') format('truetype');
+    font-family: "RealHeadWebW03Book";
+    src: url('./RealHeadWebW03Book.ttf') format('truetype');
 }
 
 @font-face {
@@ -9,8 +9,8 @@
 }
 
 @font-face {
-    font-family: "Rohn Bold";
-    src: url('./RohnRounded-Bold.ttf') format('truetype');
+    font-family: "RohnBold";
+    src: url('./RohnRoundedBold.ttf') format('truetype');
 }
 
 /* Chrome, Safari scrollbar */
@@ -55,7 +55,7 @@ html {
 }
 
 body{
-    font-family: "Real Head Web W03 Book";
+    font-family: "RealHeadWebW03Book";
     margin: 0%;
     color: white;
     background-color: rgb(31, 31, 31);
@@ -77,14 +77,14 @@ header.scrolled {
 
 h2#page-name{
     color: rgb(255, 255, 255);
-    font-family: "Rohn Bold";
+    font-family: "RohnBold";
     font-size: 2.2rem;
     margin: 24px 0px 24px;
 }
 
 h2#page-surname{
     color: rgb(98, 0, 255);
-    font-family: "Rohn Bold";
+    font-family: "RohnBold";
     font-size: 2.2rem;
     margin-left: 0.03em;
     margin-top: 0.68em;
@@ -132,7 +132,7 @@ nav ul li a {
     line-height: 4.9em;
     border-radius: 18%;
     background: rgb(31, 31, 31);
-    font-family: "Rohn Bold";
+    font-family: "RohnBold";
     color: rgb(161, 161, 161);
     transition: .5s;
     text-decoration: none;
@@ -354,7 +354,7 @@ button.btn-technologies{
     border-radius: 0.63em;
     background-color: rgb(56, 56, 56);
     color: white;
-    font-family: "Rohn Bold";
+    font-family: "RohnBold";
     border: none;
     font-size: 1.0em;
     border-bottom: 5px solid rgb(119, 35, 255);
