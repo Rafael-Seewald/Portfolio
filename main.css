@@ -1,17 +1,16 @@
-@import url(https://db.onlinewebfonts.com/c/df93109504b66900709738023b0e9814?family=Rohn+Bold);
-@import url(https://db.onlinewebfonts.com/c/d645cc4a58c3bcf8ab61869b4edab482?family=Real+Head+Web+W03+Book);
-@import url(https://db.onlinewebfonts.com/c/60bb18a25a964a9cc419b599a50267ad?family=Stem+Text+W03+Regular);
-
-html {
-    scroll-behavior: smooth;
+@font-face {
+    font-family: "Real Head Web W03 Book";
+    src: url('/static/fonts/Real\ Head\ Web\ W03\ Book.ttf') format('truetype');
 }
 
-body{
-    font-family: "Real Head Web W03 Book";
-    margin: 0%;
-    color: white;
-    background-color: rgb(31, 31, 31);
-    min-width: 100%; 
+@font-face {
+    font-family: "Stem Text W03 Regular";
+    src: url('/static/fonts/Stem\ Text\ W03\ Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Rohn Bold";
+    src: url('/static/fonts/Rohn/RohnRounded-Bold.ttf') format('truetype');
 }
 
 /* Chrome, Safari scrollbar */
@@ -39,6 +38,27 @@ body{
         scrollbar-width: auto; 
         scrollbar-color: rgb(152, 91, 250) rgb(31, 31, 31);
     }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+html {
+    scroll-behavior: smooth;
+    flex: 1 1 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+body{
+    font-family: "Real Head Web W03 Book";
+    margin: 0%;
+    color: white;
+    background-color: rgb(31, 31, 31);
+    min-width: 100%; 
 }
 
 header {
