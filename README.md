@@ -4,13 +4,12 @@
 <img src="https://img.shields.io/badge/APP%20-%20darkred"></img>
 <img src="https://img.shields.io/badge/TKINTER%20-%20green"></img>
 
-<h3># ACCESS -></h3>
-<h4 align="center"> https://rafael-seewald.github.io/Portfolio/ </h4>
+<h3># ACCESS -></h3><a><h4 align="center"> https://rafael-seewald.github.io/Portfolio/ </h4></a>
 
 <h2 align="center">I made my Portfolio in format of a website, with a really nice modern design and some functions and videos showing my work and projects as a programmer.</h2>
 
 <h1 align="center">
-<video src="./Vdeo-sem-ttulo-Feito-com-Clipchamp-ezgif.com-crop.mp4" width="1040" height="530"></video>
+https://github.com/user-attachments/assets/fad4599d-caef-42e8-b328-ab488927c25d
 </h1>
 
 <div align="center">
