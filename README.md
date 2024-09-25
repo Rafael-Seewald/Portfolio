@@ -4,7 +4,7 @@
 <img src="https://img.shields.io/badge/APP%20-%20darkred"></img>
 <img src="https://img.shields.io/badge/TKINTER%20-%20green"></img>
 
-<h3># ACCESS -><a href="https://rafael-seewald.github.io/Portfolio/">Here</h3></a>
+<h3># ACCESS -><a href="https://rafael-seewald.github.io/Portfolio/" style="color: white; text-decoration: underline;">Here</h3></a>
 
 <h2 align="center">I made my Portfolio in format of a website, with a really nice modern design and some functions and videos showing my work and projects as a programmer.</h2>
 
