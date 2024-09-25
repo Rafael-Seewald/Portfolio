@@ -10,7 +10,7 @@
 <h2 align="center">I made my Portfolio in format of a website, with a really nice modern design and some functions and videos showing my work and projects as a programmer.</h2>
 
 <h1 align="center">
-<img src="./gif.gif" width="1040" height="530"></img>
+<img src="./gif.gif" width="940" height="730"></img>
 </h1>
 
 <div align="center">
