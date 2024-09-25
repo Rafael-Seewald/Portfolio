@@ -1,26 +1,10 @@
-<html>
-<head>
-  <style>
-    a.custom-link {
-      color: white;
-      text-decoration: underline;
-    }
-    a.custom-link:visited {
-      color: white;
-    }
-    a.custom-link:hover {
-      color: white;
-    }
-  </style>
-</head>
-<body>
-  <h1> Portfolio </h1>
+# Portfolio 
  
 <img src="https://img.shields.io/badge/PYTHON%20-%20darkblue"></img>
 <img src="https://img.shields.io/badge/APP%20-%20darkred"></img>
 <img src="https://img.shields.io/badge/TKINTER%20-%20green"></img>
 
-<h3># ACCESS -><a href="https://rafael-seewald.github.io/Portfolio/" class="custom-link">Here</a></h3>
+<h3># ACCESS -><a href="https://rafael-seewald.github.io/Portfolio/">Here</a></h3>
 
 <h2 align="center">I made my Portfolio in format of a website, with a really nice modern design and some functions and videos showing my work and projects as a programmer.</h2>
 
@@ -34,5 +18,3 @@
     <h5> Made with ❤️ by Rafael Seewald👋</h5>
   </footer>
 </div>
-</body>
-</html>
