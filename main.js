@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const scrollElements = [
         { element: document.querySelector('#about'), offset: 500 },
         { element: document.querySelector('#projects'), offset: 1500 },
-        { element: document.querySelector('#contact'), offset: 4300 },
+        { element: document.querySelector('#contact'), offset: 4100 },
         { element: document.querySelector('#button-top'), offset: 200 }
     ];
 
