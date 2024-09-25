@@ -1,16 +1,16 @@
 @font-face {
     font-family: "Real Head Web W03 Book";
-    src: url('./static/fonts/Real\ Head\ Web\ W03\ Book.ttf') format('truetype');
+    src: url('./Real\ Head\ Web\ W03\ Book.ttf') format('truetype');
 }
 
 @font-face {
     font-family: "Stem Text W03 Regular";
-    src: url('./static/fonts/Stem\ Text\ W03\ Regular.ttf') format('truetype');
+    src: url('./Stem\ Text\ W03\ Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: "Rohn Bold";
-    src: url('./static/fonts/RohnRounded-Bold.ttf') format('truetype');
+    src: url('./RohnRounded-Bold.ttf') format('truetype');
 }
 
 /* Chrome, Safari scrollbar */
