@@ -4,23 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="/static/css/main.css">
 </head>
 <body id="topo">
-    <header>
-        <div id="page-totalname">
-            <h2 id="page-name">RAFAEL</h2>
-            <h2 id="page-surname">SEEWALD</h2>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#topo">Início</a></li>
-                <li><a href="#body-section">Sobre</a></li>
-                <li><a href="#projects">Projetos</a></li>
-                <li><a href="#contact">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
+    {% include 'top.html' %}
 
     <div id="img-back">
         <div id="gradient">
@@ -33,17 +20,17 @@
                     <hr class="imgs-hr">
                     <li>
                         <a href="https://www.linkedin.com/in/rafael-vin%C3%ADcius-seewald-2341432b8/" target="_blank">
-                            <img class="contact-icon" src="img/linkedin.png" alt="linkedin logo" width="35" height="35">
+                            <img class="contact-icon" src="/static/img/linkedin.png" alt="linkedin logo">
                         </a>
                     </li>
                     <li>
                         <a href="https://github.com/Rafael-Seewald" target="_blank">
-                            <img class="contact-icon" src="img/github.png" alt="github logo" width="35" height="35">
+                            <img class="contact-icon" src="/static/img/github.png" alt="github logo">
                         </a>
                     </li>
                     <li>
                         <a href="https://mail.google.com/mail/u/0/#sent?compose=CllgCJNvNLXtzrMpVKSlMwqVgjdSvZzsZnjhQbfmjcNZTsJJnXNPvwJKVbvMfKJDgTbZKpTLFGB" target="_blank">
-                            <img class="contact-icon" src="img/email.png" alt="email logo" width="35" height="35">
+                            <img class="contact-icon" src="/static/img/email.png" alt="email logo">
                         </a>
                     </li>
                     <hr class="imgs-hr">
@@ -56,6 +43,7 @@
     </div>
 
     <div id="body-section">
+        <br>
         <section id="about">
             <h2 class="h2-section">S O B R E</h2>
             <h2 class="h2-title">Breve apresentação</h2>
@@ -66,25 +54,25 @@
             <ul id="ul-imgs">
                 <li>
                     <button class="btn-technologies">
-                        <img src="img/python.png" alt="python logo" width="48" height="48">
+                        <img src="/static/img/python.png" alt="python logo">
                         <p>Python</p>
                     </button>
                 </li>
                 <li>
                     <button class="btn-technologies">
-                        <img src="img/css.png" alt="css logo" width="48" height="48">
+                        <img src="/static/img/css.png" alt="css logo">
                         <p>CSS</p>
                     </button>
                 </li>
                 <li>
                     <button class="btn-technologies">
-                        <img src="img/html.png" alt="html logo" width="48" height="48">
+                        <img src="/static/img/html.png" alt="html logo">
                         <p>HTML</p>
                     </button>
                 </li>
                 <li>
                     <button class="btn-technologies">
-                        <img src="img/sql.png" alt="sql logo" width="45" height="45">
+                        <img src="/static/img/sql.png" alt="sql logo">
                         <p>SQL</p>
                     </button>
                 </li>
@@ -100,7 +88,7 @@
                 <li>Consulta de APIs</li>
                 <li>Criação de gráficos</li>
             </ul>
-            <img id="img-dev" src="img/developer.png" width="530" height="410">
+            <img id="img-dev" src="/static/img/developer.png">
         </section>
 
         <section id="projects">
@@ -112,7 +100,7 @@
 
             <div class="project">
                 <div class="project-image">
-                    <video src="media/stocksite.mp4" controls alt="Um website de controle de produtos"></video>
+                    <video src="/static/media/stocksite.mp4" controls alt="Um website de controle de produtos"></video>
                 </div>
                 <div class="project-details">
                     <h2 class="h2-projects" id="primeiro">Site de controle de estoque</h2>
@@ -126,7 +114,7 @@
 
             <div class="project">
                 <div class="project-image">
-                    <video src="media/calculadora.mp4" controls alt="Uma calculadora"></video>
+                    <video src="/static/media/calculadora.mp4" controls alt="Uma calculadora"></video>
                 </div>
                 <div class="project-details">
                     <h2 class="h2-projects">Calculadora</h2>
@@ -140,7 +128,7 @@
 
             <div class="project">
                 <div class="project-image">
-                    <video src="media/todolist.mp4" controls alt="Lista de afazeres"></video>
+                    <video src="/static/media/todolist.mp4" controls alt="Lista de afazeres"></video>
                 </div>
                 <div class="project-details">
                     <h2 class="h2-projects">To do list</h2>
@@ -154,7 +142,7 @@
 
             <div class="project">
                 <div class="project-image">
-                    <video src="media/automacao.mp4" controls alt="Uma automacao de cadastro de itens"></video>
+                    <video src="/static/media/automacao.mp4" controls alt="Uma automacao de cadastro de itens"></video>
                 </div>
                 <div class="project-details">
                     <h2 class="h2-projects">Automação de cadastro</h2>
@@ -168,7 +156,7 @@
 
             <div class="project">
                 <div class="project-image">
-                    <video src="media/clientexe.mp4" controls alt="App de cadastro de clientes"></video>
+                    <video src="/static/media/clientexe.mp4" controls alt="App de cadastro de clientes"></video>
                 </div>
                 <div class="project-details">
                     <h2 class="h2-projects"> App de controle de clientes</h2>
@@ -190,17 +178,17 @@
                 <li>Email: rafa.vini.seewald@gmail.com</li>
                 <li class="li-middle">
                     <a class="exemple" href="https://www.instagram.com/vinyyboy_seewald/" target="_blank">
-                        <img class="contact-icon" src="img/instagram.png" alt="instagram logo" width="35" height="35">
+                        <img class="contact-icon" src="/static/img/instagram.png" alt="instagram logo"">
                     </a>
                 </li>
                 <li class="li-middle">
                     <a class="exemple" href="https://www.linkedin.com/in/rafael-vin%C3%ADcius-seewald-2341432b8/" target="_blank">
-                        <img class="contact-icon" src="img/linkedin.png" alt="linkedin logo" width="35" height="35">
+                        <img class="contact-icon" src="/static/img/linkedin.png" alt="linkedin logo"">
                     </a>
                 </li>
                 <li class="li-middle">
                     <a href="https://mail.google.com/mail/u/0/#sent?compose=CllgCJNvNLXtzrMpVKSlMwqVgjdSvZzsZnjhQbfmjcNZTsJJnXNPvwJKVbvMfKJDgTbZKpTLFGB" target="_blank">
-                        <img class="contact-icon" src="img/email.png" alt="email logo" width="35" height="35">
+                        <img class="contact-icon" src="/static/img/email.png" alt="email logo">
                     </a>
                 </li>
             </ul> 
@@ -210,6 +198,6 @@
     <hr id="hr-footer">
     <footer>&copy; 2024 | Dev Rafael Seewald</footer>
     
-    <script src="main.js"></script>
+    <script src="/static/js/main.js"></script>
 </body>
 </html>
