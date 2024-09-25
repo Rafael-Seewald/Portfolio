@@ -1,4 +1,4 @@
-# Portfolio 
+# Portfolio <h6>ENGLISH</h6>
  
 <img src="https://img.shields.io/badge/PYTHON%20-%20darkblue"></img>
 <img src="https://img.shields.io/badge/APP%20-%20darkred"></img>
