@@ -1,16 +1,16 @@
 @font-face {
-    font-family: "RealHeadWebW03Book";
-    src: url('./RealHeadWebW03Book.ttf') format('truetype');
+    font-family: "Real Head Web W03 Book";
+    src: url('./static/fonts/Real\ Head\ Web\ W03\ Book.ttf') format('truetype');
 }
 
 @font-face {
     font-family: "Stem Text W03 Regular";
-    src: url('./Stem Text W03 Regular.ttf') format('truetype');
+    src: url('./static/fonts/Stem\ Text\ W03\ Regular.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: "RohnBold";
-    src: url('./RohnRoundedBold.ttf') format('truetype');
+    font-family: "Rohn Bold";
+    src: url('./static/fonts/RohnRounded-Bold.ttf') format('truetype');
 }
 
 /* Chrome, Safari scrollbar */
@@ -49,13 +49,12 @@ img {
 html {
     scroll-behavior: smooth;
     flex: 1 1 30%;
-    display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
 body{
-    font-family: "RealHeadWebW03Book";
+    font-family: "Real Head Web W03 Book";
     margin: 0%;
     color: white;
     background-color: rgb(31, 31, 31);
@@ -77,14 +76,14 @@ header.scrolled {
 
 h2#page-name{
     color: rgb(255, 255, 255);
-    font-family: "RohnBold";
+    font-family: "Rohn Bold";
     font-size: 2.2rem;
     margin: 24px 0px 24px;
 }
 
 h2#page-surname{
     color: rgb(98, 0, 255);
-    font-family: "RohnBold";
+    font-family: "Rohn Bold";
     font-size: 2.2rem;
     margin-left: 0.03em;
     margin-top: 0.68em;
@@ -111,10 +110,9 @@ nav ul {
     display: flex;
     position: absolute;
     top: 50%;
-    left: auto;
-    left: 81%;
+    left: 71%;
     transform: translate(-50%, -50%);
-  }
+}
   
 nav ul li {
     list-style: none;
@@ -132,7 +130,7 @@ nav ul li a {
     line-height: 4.9em;
     border-radius: 18%;
     background: rgb(31, 31, 31);
-    font-family: "RohnBold";
+    font-family: "Rohn Bold";
     color: rgb(161, 161, 161);
     transition: .5s;
     text-decoration: none;
@@ -335,26 +333,26 @@ hr.hr-section{
 }
 
 p#indentation{
-    margin: 1.56em 6.90em 0%;
+    margin: 1.16em 4.6em 0%;
 }
 
 p#indentation2{
-    margin: 0.13em 8.65em 1.25em;
+    margin: 0.13em 6.35em 0%;
 }
 
 p#title-ul{
-    margin: 0.63em 10.70em 0%;
+    margin: 0.33em 7.9em 0%;
 }
 
 button.btn-technologies{
-    width: 6.70em;
+    width: 6.0em;
     height: 8em;
-    padding: 1.25em 1.88em 0.06em;
-    margin: 0% 0.13em 0%;
+    padding: 1.25em 1.68em 0.06em;
+    margin: 0% 0.07em 0%;
     border-radius: 0.63em;
     background-color: rgb(56, 56, 56);
     color: white;
-    font-family: "RohnBold";
+    font-family: "Rohn Bold";
     border: none;
     font-size: 1.0em;
     border-bottom: 5px solid rgb(119, 35, 255);
@@ -390,10 +388,11 @@ img#img-dev {
     position: fixed;
     flex-wrap: wrap;
     display:block;
-    left: 63%;
-    top: 20%;
+    left: 69%;
+    top: 22%;
     width: 30%; 
     height: auto;
+    max-width: 60%;
 }
 
 section#about.visible {
@@ -402,7 +401,7 @@ section#about.visible {
 }
 
 section#projects {
-    padding: 1.58em 0.63em 0em; 
+    padding: 1.58em 0em 0em; 
     opacity: 0;
     transform: translateX(-100%);
     transition: opacity 1s, transform 1s;
@@ -419,7 +418,7 @@ hr.hr-sectionproject {
     background: rgb(119, 35, 255);
     margin-left: 0;
     border: none;
-    width: 15.75em; 
+    width: 13.75em; 
     height: 0.13em;
     border-radius: 2.5em; 
 }
@@ -435,12 +434,12 @@ hr.hr-sectionproject {
     display: flex;
     text-align: center;
     justify-content: center;
-    margin-left: 18.63em; 
+    margin-left: 14.63em; 
 }
 
 .project-image video {
-    width: 33em;
-    height: 23em;
+    width: 29em;
+    height: 20em;
 }
 
 .project-details {
@@ -449,7 +448,7 @@ hr.hr-sectionproject {
 }
 
 h2#primeiro {
-    margin-top: 3.60em; 
+    margin-top: 2.8em; 
 }
 
 h2.h2-projects {
@@ -464,7 +463,7 @@ hr.hr-projectimage {
     width: 66%; 
     height: 0.13em; 
     margin-top: 3.13em; 
-    margin-left: 30%; 
+    margin-left: 28%; 
     margin-bottom: 3.13em; 
     border-radius: 2.5em; 
 }
