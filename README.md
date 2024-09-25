@@ -13,8 +13,9 @@
     }
   </style>
 </head>
-  # Portfolio
-
+<body>
+  <h1> Portfolio </h1>
+ 
 <img src="https://img.shields.io/badge/PYTHON%20-%20darkblue"></img>
 <img src="https://img.shields.io/badge/APP%20-%20darkred"></img>
 <img src="https://img.shields.io/badge/TKINTER%20-%20green"></img>
@@ -33,3 +34,5 @@
     <h5> Made with ❤️ by Rafael Seewald👋</h5>
   </footer>
 </div>
+</body>
+</html>
