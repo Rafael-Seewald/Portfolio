@@ -410,7 +410,7 @@ section#projects {
 div #sticky-projects {
     position: sticky;
     margin-top: 6.25em; 
-    top: 13%;
+    top: 16%;
     z-index: 1000;
 }
 
